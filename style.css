@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  padding: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: blanchedalmond;
+}
+
+.choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+  visibility: hidden;
+}
+.choice img {
+  height: 30vh;
+  width: 17vw;
+  margin: 0 3rem;
+  border: 4px solid black;
+}
+
+.winnerText {
+  height: 5vh;
+  margin: 5rem;
+  font: 800 42pt Courier;
+}
+.humanChoice {
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.humanChoice img {
+  height: 20vh;
+}
